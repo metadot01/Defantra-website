@@ -1,0 +1,81 @@
+You are an expert product, UX, and frontend engineer building a marketing website for a B2B AI customs platform called Defantra.
+The full, approved website copy and company description is in the attached document in this Replit project.
+Task:
+1. Read and understand the attached website content file.
+2. Design an information architecture (pages, sections, navigation) that uses all that content in a clear, modern way.
+3. Implement a complete responsive website (HTML, CSS, and JavaScript if needed) that reflects this content and structure.
+1. Content and context
+• The company is focused on:
+• AI‑powered HS code classification with confidence scoring.
+• Human‑in‑the‑loop workflows for edge cases.
+• Immutable audit records for all customs decisions.
+• Serving customs brokers and freight forwarders first, with future expansion.
+• The full approved copy is stored in this project as a document.
+• Action: Locate the document in the Replit filesystem (for example:  content/website-copy.txt  or a similarly named file attached to this Repl) and treat that as the single source of truth.
+• Do not invent major new sections; only add small connective phrases if needed to make the layout readable.
+2. Site structure to create
+Create a multi‑page site with at least:
+• Home – High‑level value proposition, hero section, social proof, and key benefits.
+• Product / Platform – Clear breakdown of features such as HS code classification, human‑in‑the‑loop, audit trail, risk assessment, integrations.
+• Solutions – Tailored sections for customs brokers and freight forwarders (and any other roles mentioned in the content).
+• How It Works – Step‑by‑step flow that reflects Defantra’s principles: verifiable trust, regulated scale, and explicit responsibility.
+• Resources / Blog – If the content mentions articles, insights, or documentation, create a simple listing page and a template for a single article.
+• About – Company mission, vision, and why responsible AI in customs matters.
+• Contact / Request Demo – Form for leads with fields: name, company, role, email, phone (optional), volume of declarations per month, and a free‑text message.
+Use a top navigation bar with these pages and a persistent “Request Demo” button. On mobile, use a hamburger menu.
+3. Design requirements
+• Style: clean, modern B2B SaaS, with emphasis on trust and compliance.
+• Color palette:
+• Primary: deep blue or navy (trust/compliance).
+• Accent: teal or green (AI, efficiency).
+• Background: light grey or off‑white.
+• Typography:
+• Use a modern sans‑serif font pairing for headings and body text.
+• Make headings bold and easy to scan.
+• Layout:
+• Full‑width hero with headline, sub‑headline, primary CTA (“Request Demo”) and secondary CTA (“Download Overview PDF” or similar if mentioned).
+• Sections for features and benefits using cards or icon rows.
+• Use comparison/feature tables when highlighting differences such as “Manual vs Defantra”, or “Brokers vs Forwarders use cases” if the content supports it.
+• Visuals:
+• Include illustrative elements that suggest dashboards, workflows, and audit logs (using simple shapes and components, not real data).
+• Keep everything fully implementable in HTML/CSS (no dependence on external design tools).
+4. Implementation details
+• Stack: plain HTML + CSS + minimal JavaScript (no heavy frameworks), unless you identify a simple, built‑in Replit template that is clearly superior.
+• File structure:
+•  index.html  – Home page.
+•  product.html  – Product/platform page.
+•  solutions.html  – Solutions page.
+•  how-it-works.html  – How it works.
+•  resources.html  and a sample  resource-detail.html  or similar.
+•  about.html  – About page.
+•  contact.html  – Contact / Request demo.
+•  assets/css/styles.css  – Central stylesheet.
+•  assets/js/main.js  – Only if needed for interactivity (e.g., mobile nav, smooth scrolling, simple form validation).
+• Make the header and footer consistent across all pages.
+• Ensure the layout is fully responsive down to 360px width.
+• Implement semantic HTML:  <header> ,  <nav> ,  <main> ,  <section> ,  <footer> , etc.
+5. Use the attached content correctly
+• Parse the attached content file and:
+• Map each main section or heading in the document to a logical page and section on the site.
+• Preserve product terminology exactly as written.
+• Use bullet lists, sub‑sections, or cards to make long paragraphs easier to scan, but do not change the core meaning.
+• If some points don’t fit into the main pages, create an “Additional details” section under Resources or About instead of dropping them.
+6. Forms and basic interactions
+• Implement the Request Demo / Contact form in  contact.html .
+• Include HTML5 form validation ( required  attributes, email type, etc.).
+• For now, simulate submission with a JavaScript handler that:
+• Prevents default submission.
+• Shows a success message banner at the top of the form.
+• Logs the form data to the browser console so it is easy to wire to a backend later.
+7. Accessibility and best practices
+• Ensure sufficient color contrast for text.
+• Add  alt  text to all meaningful images or icons.
+• Make navigation keyboard accessible.
+• Use logical heading hierarchy ( h1  per page, then  h2 ,  h3 , etc.).
+8. Final checks
+• Once you generate the site, verify that:
+• All navigation links work and point to the right HTML files.
+• The layout looks good on desktop, tablet, and mobile viewports.
+• All major ideas from the attached content are visible and easy to find.
+• If anything is unclear from the content, make reasonable assumptions and keep the structure flexible so it can be edited later.
+Now, read the attached website content file in this Repl, design the information architecture, and then generate all the HTML, CSS, and JS files needed for this multi‑page site.

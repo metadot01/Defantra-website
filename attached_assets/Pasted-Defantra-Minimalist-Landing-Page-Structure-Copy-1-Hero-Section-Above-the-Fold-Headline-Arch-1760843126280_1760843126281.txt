@@ -1,0 +1,140 @@
+Defantra Minimalist Landing Page – Structure & Copy
+1. Hero Section (Above the Fold)
+
+Headline:
+Architect. Secure. Optimize.
+Enterprise AI Systems That Scale Safely.
+
+Subheadline:
+Production-grade LLM optimization, AI security, and architecture. Faster. Cheaper. Regulation-proof.
+
+CTA Buttons:
+
+[Book Free Audit]
+
+[View Research Portfolio]
+
+Visual:
+
+Minimalist hero graphic of AI/LLM infrastructure or network nodes.
+
+Background: Dark navy (#001428)
+
+Accent color: Cyan (#00D4FF)
+
+2. Core Expertise – 4 Pillars (Minimal Cards / Icons)
+Pillar	Headline	Subhead / Metrics
+LLM Optimization	Lightning-Fast Performance	65% latency reduction, 50% cost savings, 10x throughput
+Solution Architecture	Scalable AI Systems	$1M+ enterprise projects, vendor-agnostic, build-vs-buy decisions
+Securing AI Systems	Adversarial-Resistant	15–30 vulnerabilities identified, 40% robustness improvement
+Compliance & XAI	Regulation-Proof AI	GDPR/FCA ready, audit trail infrastructure, customer trust ↑ 90%
+
+Visual Style: 4 horizontal cards with iconography and subtle cyan accents.
+
+3. Problem → Solution Section (Pain Point Messaging)
+
+Problem:
+Your AI is expensive, slow, or vulnerable—often all three.
+
+Solution:
+We architect AI systems with security, performance, and cost-efficiency engineered in from day one.
+
+Quick Stats:
+
+50% cost reduction in LLM deployment
+
+60% faster inference
+
+FCA/GDPR-compliant
+
+CTA:
+
+[Book Discovery Call]
+
+4. Services / Solutions Overview (Tiered)
+
+Minimalist Tier Comparison Layout (3 columns)
+
+Tier 1: Audits & Assessments	Tier 2: Implementation Projects	Tier 3: Ongoing Support & Leadership
+LLM Cost & Performance Audit	Production LLM Optimization & Deployment	Fractional LLM Architect / AI Lead
+Adversarial LLM Security	XAI Integration	Embedded AI Security Lead
+Architecture & Model Advisory	RL & Personalization	Enterprise AI Training & Upskilling
+Duration / Investment	3–6 weeks	3–6 months
+£12K–£28K	£42K–£65K	£12K–£18K/month
+
+Highlight Tier 2 as “Most Popular” using cyan accent border or background.
+
+5. Why Defantra – Key Differentiators (Minimal Bullets)
+
+Research + Enterprise: MSc AI, published LLM security research, 15+ years Fortune 500 deployment
+
+Security + Performance: Jailbreaking research + AWQ quantization & CUDA optimization
+
+Teaching + Knowledge Transfer: 300+ postgraduate students, 10+ enterprise teams
+
+UK-Based & Compliance-Ready: Edinburgh HQ, FCA/GDPR/XAI-compliant, SC clearance pathway
+
+CTA: [Book Discovery Call]
+
+6. Proof & Credibility (Portfolio Highlights)
+
+Projects Snapshot:
+
+LLM Optimization Research: 65% latency improvement
+
+Adversarial Security Assessment: 40% robustness improvement
+
+Enterprise Big Data Platform (EMC): $1M+ delivered
+
+Hybrid Cloud (Dell): 95%+ client satisfaction
+
+Drug Adherence Prediction (Express Scripts): 20% efficiency improvement
+
+CTA: [View Full Portfolio] [Download Case Studies]
+
+7. Industries Served (Icons + Minimal Text)
+
+FinTech: Cost optimization, FCA compliance, real-time fraud detection
+
+Healthcare: Federated learning, HIPAA/GDPR, multi-site collaboration
+
+AI Startups / Scale-ups: Rapid deployment, cost & technical debt reduction
+
+GovTech / Defense: On-prem, adversarial threat detection, SC clearance
+
+Enterprise IT / Hybrid Cloud: MLOps at scale, legacy integration
+
+8. Final CTA Section (Conversion Focused)
+
+Headline: Stop Guessing. Start Securing.
+
+Subheadline: Book a free 30-minute AI security & optimization audit. No sales pitch, just technical insights.
+
+Primary CTA: [Book Free Audit]
+Secondary CTA: [Download Security Checklist]
+
+Fine Print: Edinburgh, UK | bharath@defantra.com
+ | +44 7950 932783 | Response <24h | Inside/Outside IR35 | SC Clearance Available
+
+Design Principles
+
+Color Palette: Dark navy (#001428), white text, cyan (#00D4FF) accents
+
+Typography: Sans-serif, bold headings, minimal text blocks
+
+Layout: Responsive 1–3 columns, whitespace-focused
+
+CTA Style: Bold cyan buttons with hover glow effect
+
+Visuals: Simple icons, minimal hero graphic, subtle animation on stats
+
+✅ Result:
+A minimalist, professional landing page that:
+
+Highlights expertise immediately
+
+Explains problems → solutions clearly
+
+Shows proof via results & CV evidence
+
+Encourages conversions with clear CTAs

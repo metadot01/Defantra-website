@@ -8,17 +8,17 @@ import Platform from "@/pages/platform";
 import Services from "@/pages/services";
 import Resources from "@/pages/resources";
 import About from "@/pages/about";
-import NotFound from "@/pages/not-found";
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Home}/>
+      <Route path="./" component={Home}/>
+      <Route path="/index" component={Home}/>
       <Route path="/platform" component={Platform}/>
       <Route path="/services" component={Services}/>
       <Route path="/resources" component={Resources}/>
       <Route path="/about" component={About}/>
-      <Route component={NotFound} />
     </Switch>
   );
 }

@@ -1,11 +1,13 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig(async ({ mode }) => {
   const plugins = [react()];
 
-  // Only load Replit plugins in development AND when running in Replit
   if (mode !== "production" && process.env.REPL_ID !== undefined) {
     const runtimeErrorOverlay = await import("@replit/vite-plugin-runtime-error-modal");
     const cartographer = await import("@replit/vite-plugin-cartographer");
@@ -22,17 +24,17 @@ export default defineConfig(async ({ mode }) => {
     plugins,
     resolve: {
       alias: {
-        "@": path.resolve(import.meta.dirname, "client", "src"),
-        "@shared": path.resolve(import.meta.dirname, "shared"),
-        "@assets": path.resolve(import.meta.dirname, "attached_assets"),
+        "@": path.resolve(__dirname, "client", "src"),
+        "@shared": path.resolve(__dirname, "shared"),
+        "@assets": path.resolve(__dirname, "attached_assets"),
       },
     },
-    root: path.resolve(import.meta.dirname, "client"),
+    root: path.resolve(__dirname, "client"),
     build: {
-      outDir: path.resolve(import.meta.dirname, "dist"),
+      outDir: path.resolve(__dirname, "dist"),  // Simplified to just dist
       emptyOutDir: true,
     },
-    base: "/Defantra-website/",
+    base: './', // mode === 'production' ? '/Defantra-website/' : '/',
     server: {
       fs: {
         strict: true,

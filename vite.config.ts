@@ -8,18 +8,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export default defineConfig(async ({ mode }) => {
   const plugins = [react()];
 
-  if (mode !== "production" && process.env.REPL_ID !== undefined) {
-    const runtimeErrorOverlay = await import("@replit/vite-plugin-runtime-error-modal");
-    const cartographer = await import("@replit/vite-plugin-cartographer");
-    const devBanner = await import("@replit/vite-plugin-dev-banner");
-    
-    plugins.push(
-      runtimeErrorOverlay.default(),
-      cartographer.cartographer(),
-      devBanner.devBanner()
-    );
-  }
-
   return {
     plugins,
     resolve: {

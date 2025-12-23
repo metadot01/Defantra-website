@@ -22,7 +22,7 @@ export default defineConfig(async ({ mode }) => {
       outDir: path.resolve(__dirname, "dist"),  // Simplified to just dist
       emptyOutDir: true,
     },
-    base: '/Defantra-website/', // mode === 'production' ? '/Defantra-website/' : '/',
+    base: '/./', // mode === 'production' ? '/Defantra-website/' : '/',
     server: {
       fs: {
         strict: true,
